@@ -17,7 +17,7 @@ function Footer() {
       }}
     >
       <Typography variant="body2" color="textSecondary">
-        © {new Date().getFullYear()} Your Website Name. All rights reserved.
+        © {new Date().getFullYear()} T.H.R | All rights reserved.
       </Typography>
     </Box>
   );
