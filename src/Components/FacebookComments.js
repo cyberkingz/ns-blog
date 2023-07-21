@@ -115,9 +115,9 @@ function FacebookComments() {
                       <p>{comment.content}</p>
                       {comment.time && (
                         <div className="tools_comment">
-                          <a className="like" href="#">Like</a>
+                          <a className="like">Like</a>
                           <span aria-hidden="true"> · </span>
-                          <a className="replay" href="#">Reply</a>
+                          <a className="replay">Reply</a>
                           <span aria-hidden="true"> · </span>
                           <i className="fa fa-thumbs-o-up"></i> <span className="count">{comment.count}</span>
                           <span aria-hidden="true"> · </span>
