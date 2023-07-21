@@ -79,7 +79,7 @@ function FacebookComments() {
 
   const commentsPerPage = 4;
   const [visibleComments, setVisibleComments] = useState(commentsPerPage);
-  const [commentDetails, setCommentDetails] = useState(initialCommentDetails);
+  const [commentDetails] = useState(initialCommentDetails);
 
  
 
