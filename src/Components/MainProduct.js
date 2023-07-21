@@ -2,6 +2,7 @@ import { Box, Button, Divider, Typography } from '@mui/material'
 import React from 'react'
 import IMG from '../img/clearlift.png'
 import { Check } from '@mui/icons-material'; // Import the Check icon from MUI
+import './MainProduct.css';
 
 function MainProduct() {
   return (
@@ -37,7 +38,7 @@ function MainProduct() {
       <div className='imgTextWrapper' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', alignContent: 'center', gap: '30px'}}>
 
       <div className='img-container'>
-        <img src={IMG} alt="" width={'50%'} style={{borderRadius: '20px', boxShadow: '0 0 10px 1px rgb(221 221 221)'}}/>
+        <img src={IMG} alt="" width={'50%'} className='productIMG' style={{borderRadius: '20px', boxShadow: '0 0 10px 1px rgb(221 221 221)'}}/>
       </div>
 
 
