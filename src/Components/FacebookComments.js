@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 import './FacebookComments.css';
 import Avatar1 from '../img/avatars/1.jpg';
 import Avatar2 from '../img/avatars/2.jpg';

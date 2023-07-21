@@ -2,7 +2,6 @@ import { Box, Button, Divider, Typography } from '@mui/material'
 import React from 'react'
 import IMG from '../img/clearlift.png'
 import { Check } from '@mui/icons-material'; // Import the Check icon from MUI
-import Container from '@mui/material/Container';
 
 function MainProduct() {
   return (
