@@ -4,7 +4,7 @@ import IMG from '../img/logo.png'
 
 function SubFooter() {
   return (
-    <div style={{padding: '10px', marginTop: '50px', background: '#F5F5F5', paddingBottom: '20px'}}>
+    <div style={{padding: '10px', marginTop: '50px', background: 'white', paddingBottom: '20px', paddingTop: '20px'}}>
 
         <div>
             <img src={IMG} alt="" style={{filter: 'invert(1)', width: '300px'}}/>

@@ -5,7 +5,7 @@ function StickBar() {
   return (
     <AppBar
       style={{
-        backgroundColor: '#0F172A',
+        backgroundColor: '#334155',
         bottom: '0',
         top: 'auto', // Set top to 'auto'
         position: 'fixed',
@@ -15,9 +15,9 @@ function StickBar() {
         <Button
           href="https://novalight-uk.com/"
           variant="contained"
-          sx={{ margin: 'auto auto', backgroundColor: '#4ade80', width: '180px', fontWeight: 'bold', fontSize: '16px' }}
+          sx={{ margin: 'auto auto', backgroundColor: '#4ade80', width: '220px', fontWeight: 'bold', fontSize: '16px' }}
         >
-        👉 Visit Site
+        👉 Visit Their Site
         </Button>
       </Toolbar>
     </AppBar>

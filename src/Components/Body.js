@@ -16,7 +16,7 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
+      <Container maxWidth="md" >
         <Box sx={{ bgcolor: 'white', height: '100%', padding: '10px', paddingBottom: '100px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
 
             <IntroWriter />
