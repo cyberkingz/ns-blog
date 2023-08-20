@@ -17,7 +17,7 @@ function Footer() {
       }}
     >
       <Typography variant="body2" color="textSecondary">
-        © {new Date().getFullYear()} T.H.R | All rights reserved.
+        © {new Date().getFullYear()} Beauty Secret | All rights reserved.
       </Typography>
     </Box>
   );

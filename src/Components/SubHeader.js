@@ -3,8 +3,8 @@ import './SubHeader.css'
 
 function SubHeader() {
   return (
-    <div className='SubHeader' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: '#1e293b', padding: '10px', color: 'white'}}>
-        <h2>Nous avons passé les trois derniers mois à tester les appareils anti-cellulite les plus vendus.</h2>
+    <div className='SubHeader' style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: '#ADE2D7', padding: '10px', color: 'black'}}>
+        <h2>We Spent the Last 3 Months Testing the Best-Selling Light Therapy Masks</h2>
     </div>
   )
 }

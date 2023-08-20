@@ -13,8 +13,7 @@ function StickBar() {
     >
       <Toolbar>
         <Button
-          href="https://example.com"
-          target="_blank"
+          href="https://novalight-uk.com/"
           variant="contained"
           sx={{ margin: 'auto auto', backgroundColor: '#4ade80', width: '180px', fontWeight: 'bold', fontSize: '16px' }}
         >

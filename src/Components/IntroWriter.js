@@ -4,18 +4,29 @@ function IntroWriter() {
   return (
     <>
     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: '#334155', padding: '10px', color: 'white', gap: '0px'}}>
-        <p style={{fontWeight: 'bold', marginBottom: '0px'}}>Écrit par Marie Bourbon</p>
-        <p style={{fontStyle: 'italic'}}>Spécialiste dermathologue & rédactrice en chef</p>
+        <p style={{fontWeight: 'bold', marginBottom: '0px'}}>Written by Judy Phillips</p>
+        <p style={{fontStyle: 'italic'}}>Wrinkle Specialist & Senior Editor</p>
     </div>
 
     <div>
           <p style={{fontSize: '12px', textAlign: 'center'}}>*We only recommend products we personally tested & loved.</p>
 
-          <p>After experiencing the many pitfalls of shaving (ingrown hairs, redness, irritation, and speedy re-growth), we contemplated alternative hair removal methods this season.  Since professional laser hair removal isn't the most time-friendly option (visits take up to two hours, & cost upwards of $400 per session), and some of us can't head out to an appointment right now, we're looking at the next best thing: at-home laser hair removal devices.</p>
 
-          <p>
-          We tested 24 at-home laser hair removal devices, including models from Tria, HappySkinCo, Silk'n, Braun, and Clearlift.  We rated the best five options based on the following criteria:
-          </p>
+      <div style={{textAlign: 'left'}}>
+          <p>With skin issues such as <strong>sagging, wrinkles, breakouts, and inflammation</strong>, we set out to find the <strong>top 5 light therapy masks</strong> known for <strong>improving and rejuvenating a gorgeous and youthful complexion.</strong></p>
+          <p></p>
+          <p>Light therapy or LED masks have been incredibly popular in recent years. <strong>At first, this type of treatment was only available through your dermatologist or an aesthetician.</strong></p>
+          <p></p>
+          <p><strong>Now, you can get those same treatments at home.</strong> As age marches across your face, you may have sought different ways to turn back the cruel hands of time.</p>
+          <p></p>
+          <p>However, <strong>an in-office visit could cost as much as $300 per session, depending on your location.</strong> Since LED therapy is never a one-and-done deal,<strong> it only makes sense to find a light therapy mask you can use to achieve those same results at </strong></p>
+          <p><strong>home.</strong></p>
+          <p></p>
+          <p>We tested 25 LED masks including models from Qure, Novalight, and OmniLux. <strong>Then we rated the 5 best options based on the following criteria:</strong></p>
+          <p></p> 
+     </div>
+
+
         </div>
         
     </>
@@ -23,3 +34,5 @@ function IntroWriter() {
 }
 
 export default IntroWriter
+
+
