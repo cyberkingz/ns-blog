@@ -5,7 +5,7 @@ import SubHeader from '../ComponentsFr/SubHeader'
 import StickBar from '../ComponentsFr/StickBar'
 
 
-function Home() {
+function HomeFr() {
   return (
     <div>
       <Header />
@@ -16,4 +16,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomeFr
