@@ -23,7 +23,7 @@ function IntroWriter() {
           <p></p>
           <p><strong>Now, you can get those same treatments at home.</strong> As age marches across your face, you may have sought different ways to turn back the cruel hands of time.</p>
           <p></p>
-          <p>However, <strong>an in-office visit could cost as much as $300 per session, depending on your location.</strong> Since LED therapy is never a one-and-done deal,<strong> it only makes sense to find a light therapy mask you can use to achieve those same results at home</strong></p>
+          <p>However, <strong>an in-office visit could cost as much as £380.00 per session, depending on your location.</strong> Since LED therapy is never a one-and-done deal,<strong> it only makes sense to find a light therapy mask you can use to achieve those same results at home</strong></p>
           <p></p>
           <p>We tested 25 LED masks including models from Qure, Novalight, and OmniLux. <strong>Then we rated the 5 best options based on the following criteria:</strong></p>
           <p></p> 
