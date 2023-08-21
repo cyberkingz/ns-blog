@@ -1,4 +1,5 @@
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home';
 import HomeUk from './Pages/HomeUk';
@@ -6,19 +7,13 @@ import HomeFr from './Pages/HomeFr';
 
 function App() {
   return (
-
     <div className="App">
-
-      <Routes>
-
-        <Route path="/" element={<Home/>}/>
-        <Route path="/uk" element={<HomeUk/>}/>
-        <Route path="/fr" element={<HomeFr/>}/>
-
-      </Routes>
-      
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/uk" component={HomeUk} />
+        <Route path="/fr" component={HomeFr} />
+      </Switch>
     </div>
-
   );
 }
 
