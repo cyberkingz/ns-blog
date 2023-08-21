@@ -8,11 +8,13 @@ import HomeFr from './Pages/HomeFr';
 function App() {
   return (
     <div className="App">
+
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/uk" component={HomeUk} />
-        <Route path="/fr" component={HomeFr} />
+        <Route path="/uk" element={HomeUk} />
+        <Route path="/fr" element={HomeFr} />
       </Switch>
+
     </div>
   );
 }
